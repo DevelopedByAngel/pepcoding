@@ -5,10 +5,10 @@ import App from "./App"; //import App component from App.js
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<App />
+	</React.StrictMode>,
+	document.getElementById("root")
 );
 // const Appp = () => {//must always be capital letter start
 // 	return <h1>Hello</h1>; //must return JSX atleast empty tag <div></div>
