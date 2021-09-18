@@ -37,7 +37,7 @@ const UseEffect = () => {
 					window.removeEventListener("resize",()=>setWidth(window.innerWidth));
 				}
 				// useEffect can return a cleanup function which will be run first in the next call
-			},[width])
+			},[width]);
 	return (
 		<div>
 			<h1>{count}</h1>
