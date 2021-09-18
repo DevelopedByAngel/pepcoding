@@ -1,10 +1,10 @@
 import './App.css';
-import MultipleReturn from './Components/MultipleReturn'
+import MultipleInput from './Components/MultipleInput'
 function App() {
   return (
     <div className="App">
     <h2>hello world</h2>
-    <MultipleReturn/>
+    <MultipleInput/>
     </div>
   );
 }
