@@ -1,6 +1,6 @@
 import React,{useContext} from 'react';
 import people from "../Data/people";
-
+import {Link} from "react-router-dom";
 const PersonContext=React.createContext();
 const Context=()=>
 {
@@ -33,7 +33,8 @@ const Person=({name,i})=>
 	const {hello,remove}=useContext(PersonContext);
 	return(
 		<div>
-			<h1>name</h1>
+			<h1>{name}</h1>
+			<Link to={'/person/'+i}>go</Link>
 			<button onClick={()=>remove(i)}><h4>X</h4></button>
 		</div>
 		)

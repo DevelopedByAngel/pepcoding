@@ -1,10 +1,10 @@
 import './App.css';
-import Context from './Components/Context'
+import Router from './Components/Router'
 function App() {
   return (
     <div className="App">
     <h2>hello world</h2>
-    <Context/>
+    <Router/>
     </div>
   );
 }
