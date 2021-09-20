@@ -1,10 +1,10 @@
 import './App.css';
-import UseReducer1 from './Components/UseReducer1'
+import Context from './Components/Context'
 function App() {
   return (
     <div className="App">
     <h2>hello world</h2>
-    <UseReducer1/>
+    <Context/>
     </div>
   );
 }
