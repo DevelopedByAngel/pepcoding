@@ -1,10 +1,10 @@
 import './App.css';
-import MultipleInput from './Components/MultipleInput'
+import UseReducer1 from './Components/UseReducer1'
 function App() {
   return (
     <div className="App">
     <h2>hello world</h2>
-    <MultipleInput/>
+    <UseReducer1/>
     </div>
   );
 }
